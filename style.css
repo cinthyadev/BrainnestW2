@@ -1,0 +1,256 @@
+@font-face {
+    font-family: 'roboto-regular';
+    src: url('./fonts/Roboto/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: 'roboto-light';
+    src: url('./fonts/Roboto/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: 'roboto-extra-bold';
+    src: url('./fonts/Roboto/Roboto-black.ttf');
+}
+
+@font-face {
+    font-family: 'roboto-light-italic';
+    src: url('./fonts/Roboto/Roboto-LightItalic.ttf');
+}
+
+*{
+    margin: 0px;
+    font-family: roboto-regular;
+    list-style-type: none;
+    text-decoration:  none;
+}
+/* general style */
+.darkBackground{
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+.generalWidth{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.greyBackground{
+    background-color: #E5E7EB;
+    color: #1f2937;
+}
+.centeredElementContainer{
+    display: flex;
+}
+/* navbar */
+nav{
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+}
+
+nav ul{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    font-family: 'roboto-light';
+}
+
+.secondaryText a{
+    color: #E5E7EB;
+}
+
+.secondaryText{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: 'roboto-light';
+}
+
+a.logo{
+    font-size: 24px;
+    color: #E5E7EB;
+    text-decoration:  none;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+/* hero */
+.heroSize{
+    /* width: 100vw; */
+    height: 95vh;
+}
+
+.heroText{
+    flex-basis: 45%;
+}
+
+.heroText h1{
+    font-size: 48px;
+    font-weight: 'roboto-extra-bold';
+    margin: 5px 0px;
+}
+
+.heroText p{
+    margin: 10px 0px;
+}
+
+.buttonFormat{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 10px 30px;
+    font-size: 18px;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+
+.heroImg{
+    flex-basis: 50%;
+    /* background-color: antiquewhite; */
+}
+.heroImg img{
+    width: 100%;
+}
+
+/* Features container */
+
+.sectionContainer{
+    width: 100vw;
+    height: 100vh;
+}
+.sectionContainerHalfHeight{
+    width: 100vw;
+    height: 50vh;
+}
+
+.titleHeight{
+    height: 20%;
+    align-items: flex-end;
+}
+
+.titleFormat{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 'roboto-extra-bold';
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.featuresContainer img{
+    width: 100%;
+}
+
+.featuresContainer{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+}
+
+.featureCard{
+    width: 20%;
+    text-align: center;
+}
+
+.featureCard img{
+    width: 200px;
+    height: 200px;
+    border-radius: 0.5rem;
+}
+
+/* quote container */
+
+.quoteContainer{
+    width: 60%;
+    margin: auto;
+}
+
+.quote{
+    font-family: 'roboto-light-italic';
+    font-size: 36px;
+}
+
+.quoteContainer p{
+    text-align: end;
+}
+
+/* CTA */
+.ctaContainer{
+    height:40vh;
+    display: flex;
+}
+
+
+.ctaBox{
+    background-color: #3882F6;
+    height: 40%;
+    width: 70%;
+    height: 40%;
+    margin: auto;
+    color: #E5E7EB;
+    display: flex;
+    border-radius: 0.5rem;
+}
+
+.ctaTextWrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+}
+.ctaTextWrapper h2{
+    font-size: 24px;
+}
+
+.ctaTextWrapper p{
+    font-size: 18px;
+    font-family: 'roboto-light';
+}
+
+.ctaTextContainer{
+    width: 60%;
+}
+.buttonLink{
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.ctaButton{
+    background-color: #3882F6;
+    border: 1px solid #F9FAF8;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 5px 20px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+/* footer */
+footer{
+    background-color: #1F2937;
+    height: 10vh;
+    color: #F9FAF8;
+    display: flex;
+}
+
+.footerTextContainer p {
+    font-family: 'roboto-light';
+}
+
+.footerTextContainer{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    text-align: center;
+    con
+}
