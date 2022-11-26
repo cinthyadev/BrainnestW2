@@ -49,11 +49,10 @@ nav{
     padding: 15px 0;
 }
 
-nav ul{
+nav menu{
     display: flex;
     width: 40%;
     justify-content: space-around;
-    font-family: 'roboto-light';
 }
 
 .secondaryText a{
@@ -89,7 +88,7 @@ header{
 .heroText h1{
     font-size: 48px;
     font-weight: 'roboto-extra-bold';
-    margin: 5px 0px;
+    margin: 10px 0px;
 }
 
 .heroText p{
@@ -103,7 +102,7 @@ header{
     border-radius: 0.5rem;
     padding: 10px 30px;
     font-size: 18px;
-    margin: 5px 0px;
+    margin-top: 30px;
     cursor: pointer;
 }
 
@@ -178,7 +177,7 @@ header{
     font-size: 36px;
 }
 
-.quoteContainer p{
+.quoteContainer cite{
     text-align: end;
 }
 
