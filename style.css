@@ -182,6 +182,10 @@ header{
     text-align: end;
 }
 
+.textToRight{
+    text-align: end;
+}
+
 /* CTA */
 .ctaContainer{
     height:40vh;
